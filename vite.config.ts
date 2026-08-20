@@ -18,6 +18,7 @@ export default defineConfig(async ({ mode }): Promise<UserConfig> => {
   }
 
   return {
+    base: './',
     plugins,
     server: {
       host: '0.0.0.0',
